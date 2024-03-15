@@ -1,0 +1,20 @@
+ul > li > a {
+  font-family: "Arimo";
+  font-weight: 300;
+  font-size: 14px;
+  color: #333333;
+}
+nav {
+  background: #fbfefb;
+  border-bottom: 1px solid black;
+}
+ul > li {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+a {
+  font-decoration: none;
+  color: #333333;
+}
