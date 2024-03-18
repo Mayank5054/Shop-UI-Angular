@@ -6,4 +6,4 @@ import { Component } from '@angular/core';
   templateUrl: './navbar.html',
   standalone: true,
 })
-export class Navbar {}
+export default class Navbar {}

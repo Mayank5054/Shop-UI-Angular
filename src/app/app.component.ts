@@ -1,16 +1,14 @@
 import { Component } from '@angular/core';
-import { ImageCrousel } from 'src/ImageCrousel/imageCrousel.component';
-import { Navbar } from 'src/navigation/navbar.component';
+// import { ImageCrousel } from 'src/ImageCrousel/imageCrousel.component';
+// import Navbar from 'src/navigation/navbar.component';
+import { Home } from 'src/Home/home.component';
 @Component({
   selector: 'app-root',
   // templateUrl: './app.component.html',
-  imports: [Navbar, ImageCrousel],
+  imports: [Home],
   standalone: true,
   styleUrls: ['./app.component.css'],
-  template: `
-    <navbar></navbar>
-    <imageCrosuel> </imageCrosuel>
-  `,
+  template: ` <home></home> `,
 })
 export class AppComponent {
   title = 'CodeSandbox';
