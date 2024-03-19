@@ -48,9 +48,24 @@
 .btn-rm > i {
   color: #333333;
 }
-
+.img-cos {
+  width: 50%;
+}
+@media only screen and (max-width: 1270px) {
+  .img-cos {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 929px) {
+  .img-cos {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 770px) {
   .right-part {
     padding-left: 50px !important;
+  }
+  .img-cos {
+    width: 50%;
   }
 }
