@@ -1,5 +1,6 @@
 import { Routes } from "@angular/router";
 import { Home } from "src/Home/home.component";
+import { AboutComponent } from "src/about/about.component";
 import { ShopComponent } from "src/shop/shop.component";
 
 export const routes: Routes = [
@@ -12,7 +13,11 @@ export const routes: Routes = [
     component:ShopComponent
 },
 {
-    path:"*",
+    path:"about",
+    component:AboutComponent
+},
+{
+    path:"**",
     redirectTo:"/home"
 }
 ]
