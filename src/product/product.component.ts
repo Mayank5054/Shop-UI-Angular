@@ -9,5 +9,5 @@ import { Component, Input } from "@angular/core";
 })
 
 export class ProductComponent{
-    @Input() name!:string;
+    @Input() data!:any;
 }
