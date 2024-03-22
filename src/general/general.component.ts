@@ -4,7 +4,7 @@ import {Component} from "@angular/core";
     selector:"<general><general>",
     standalone:true,
     imports:[],
-    styleUrls:['./genral.css'],
+    styleUrls:['./general.css'],
     templateUrl:'./general.html'
 })
 export class GeneralComponent{
