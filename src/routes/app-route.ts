@@ -1,5 +1,6 @@
 import { Routes } from "@angular/router";
 import { Home } from "src/Home/home.component";
+import { ShopComponent } from "src/shop/shop.component";
 
 export const routes: Routes = [
 {
@@ -7,7 +8,11 @@ export const routes: Routes = [
     component:Home
 },
 {
-    path:"**",
+    path:"shop",
+    component:ShopComponent
+},
+{
+    path:"*",
     redirectTo:"/home"
 }
 ]
