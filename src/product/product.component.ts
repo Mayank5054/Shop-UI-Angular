@@ -1,4 +1,5 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit, inject } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
     selector:"<product></product>",
@@ -10,4 +11,8 @@ import { Component, Input } from "@angular/core";
 
 export class ProductComponent{
     @Input() data!:any;
+    routes:ActivatedRoute = inject(ActivatedRoute);
+    constructor(){
+        console.log(this.routes.snapshot.params);
+    }
 }
